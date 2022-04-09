@@ -1,15 +1,15 @@
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+//import org.apache.log4j.LogManager;
+//import org.apache.log4j.Logger;
 
 import java.lang.Math;
 import java.util.Scanner;
 
 public class Main {
 
-    private static final Logger logger = LogManager.getLogger(Main.class);
+//    private static final Logger logger = LogManager.getLogger(Main.class);
 
     public static double sqrt(int n){
-        logger.info("Calculating Square Root of : " + n + "\n Result : " + Math.sqrt(n));
+//        logger.info("Calculating Square Root of : " + n + "\n Result : " + Math.sqrt(n));
         return Math.sqrt(n);
     }
 
