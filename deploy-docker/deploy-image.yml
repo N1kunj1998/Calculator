@@ -1,0 +1,8 @@
+---
+- name: Pull docker image from CalculatorRepo
+  hosts: all
+  tasks:
+    - name: pull javacalculator image
+      docker_image:
+        name: nikunj1998/javacalculator
+        source: pull
